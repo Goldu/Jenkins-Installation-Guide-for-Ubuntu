@@ -68,24 +68,27 @@ sudo journalctl -u jenkins -f	  Follow Jenkins logs
   ```
 **Start Jenkins service:**
  ```bash
+ sudo systemctl start jenkins
  ```
-**Start Jenkins service:**
+**Stop Jenkins service:**
  ```bash
+sudo systemctl stop jenkins
  ```
-**Start Jenkins service:**
+**Restart Jenkins service:**
  ```bash
+sudo systemctl restart jenkins
  ```
-**Start Jenkins service:**
+**View Jenkins log file:**
  ```bash
+sudo tail -f /var/log/jenkins/jenkins.log
  ```
-**Start Jenkins service:**
+**Open Jenkins home directory:**
  ```bash
+cd /var/lib/jenkins
  ```
-**Start Jenkins service:**
+**Edit Jenkins configuration file:**
  ```bash
- ```
-**Start Jenkins service:**
- ```bash
+sudo nano /etc/default/jenkins
  ```
 ## Important Jenkins Paths
 - Jenkins home directory: `/var/lib/jenkins`
