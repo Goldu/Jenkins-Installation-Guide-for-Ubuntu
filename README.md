@@ -1,24 +1,23 @@
-# Jenkins Installation Guide for Ubuntu 20.04
+# Jenkins Installation Guide on Ubuntu 20.04 with Java 17
 
-This guide explains how to install Jenkins on **Ubuntu 20.04 LTS** using the official Jenkins package repository. Follow the steps below to get Jenkins up and running quickly.
+This guide explains how to install Jenkins on Ubuntu 20.04 using OpenJDK 17.
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - Ubuntu 20.04 LTS
-- A user account with `sudo` privileges
 - Internet access
-- Port `8080` open (or configure another port)
+- Sudo privileges
+- Port 8080 open
 
 ---
 
-## 📦 Step 1: Install Java
-
-Jenkins requires Java (preferably Java 11).
-
-### Install OpenJDK 11:
+## Step 1: Install Java 17
 
 ```bash
 sudo apt update
-sudo apt install openjdk-11-jdk -y
+sudo apt install -y openjdk-17-jdk
+java -version
+
+## Step 2: Add Jenkins Repository and Key
