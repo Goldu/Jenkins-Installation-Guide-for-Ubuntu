@@ -53,14 +53,6 @@ Copy and paste this password into the Jenkins web UI to unlock Jenkins.
 sudo ufw allow 8080
 sudo ufw reload
 ```
-## Commands
-```bash
-sudo systemctl start jenkins	  Start Jenkins
-sudo systemctl stop jenkins	    Stop Jenkins
-sudo systemctl restart jenkins	Restart Jenkins
-sudo systemctl status jenkins	  Check Jenkins status
-sudo journalctl -u jenkins -f	  Follow Jenkins logs
-```
 ## Addtional Useful Commands
  **Check Jenkins service status:**
   ```bash
