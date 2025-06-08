@@ -61,6 +61,32 @@ sudo systemctl restart jenkins	Restart Jenkins
 sudo systemctl status jenkins	  Check Jenkins status
 sudo journalctl -u jenkins -f	  Follow Jenkins logs
 ```
+## Useful Commands
+ **Check Jenkins service status:**
+  ```bash
+  sudo systemctl status jenkins
+  ```
+**Start Jenkins service:**
+ ```bash
+ ```
+**Start Jenkins service:**
+ ```bash
+ ```
+**Start Jenkins service:**
+ ```bash
+ ```
+**Start Jenkins service:**
+ ```bash
+ ```
+**Start Jenkins service:**
+ ```bash
+ ```
+**Start Jenkins service:**
+ ```bash
+ ```
+**Start Jenkins service:**
+ ```bash
+ ```
 ## Important Jenkins Paths
 - Jenkins home directory: `/var/lib/jenkins`
 - Jenkins config file: `/etc/default/jenkins`
