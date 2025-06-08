@@ -1,5 +1,4 @@
-# Jenkins-Installation-Guide-for-Ubuntu
-# 🚀 Jenkins Installation Guide for Ubuntu 20.04
+# Jenkins Installation Guide for Ubuntu 20.04
 
 This guide explains how to install Jenkins on **Ubuntu 20.04 LTS** using the official Jenkins package repository. Follow the steps below to get Jenkins up and running quickly.
 
