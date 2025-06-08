@@ -78,6 +78,10 @@ sudo systemctl stop jenkins
  ```bash
 sudo systemctl restart jenkins
  ```
+**Follow Jenkins logs:**
+  ```bash
+ sudo journalctl -u jenkins -f
+  ```
 **View Jenkins log file:**
  ```bash
 sudo tail -f /var/log/jenkins/jenkins.log
