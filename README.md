@@ -45,15 +45,14 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 Copy and paste this password into the Jenkins web UI to unlock Jenkins.
 ```
 ## Step 7: Complete Jenkins Setup Wizard
-Install suggested plugins
-
-Create the first admin user
-
-Configure instance URL (optional)
+- Install suggested plugins
+- Create the first admin user
+- Configure instance URL (optional)
 ##  Step 8 (Optional): Open Firewall Port 8080
+```bash
 sudo ufw allow 8080
 sudo ufw reload
-
+```
 ## Useful Commands
 ```bash
 sudo systemctl start jenkins	  Start Jenkins
